@@ -1,0 +1,5 @@
+list = list(eval(input('enter input:')))
+element = int(input('enter input:'))
+index = int(input('enter index value:'))
+list.insert(index,element)
+print(list)
